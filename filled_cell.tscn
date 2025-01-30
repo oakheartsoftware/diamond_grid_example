@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dy4kh3gpcg53g"]
+
+[sub_resource type="Gradient" id="Gradient_6w3g7"]
+offsets = PackedFloat32Array(1)
+colors = PackedColorArray(1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_i401x"]
+gradient = SubResource("Gradient_6w3g7")
+
+[node name="FilledCell" type="TextureRect"]
+texture = SubResource("GradientTexture2D_i401x")
+stretch_mode = 2
