@@ -13,6 +13,7 @@ func create_diamond(grid_size: int) -> void:
 	for child in get_children():
 		child.queue_free()
 	
+	# Makes sure the Godot GridContainer is the correct number of columns
 	columns = grid_size
 	
 	# Check if the grid size is even
